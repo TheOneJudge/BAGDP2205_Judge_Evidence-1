@@ -8,7 +8,7 @@ using UnityEngine.InputSystem;
 public class PlayerMove : MonoBehaviour
 {
     private CharacterController _controller;
-    private float _playerSpeed = 2.0f;
+    private float _playerSpeed = 5.0f;
     private Vector2 _playerInput;
 
     public void playerMove(InputAction.CallbackContext context) 
