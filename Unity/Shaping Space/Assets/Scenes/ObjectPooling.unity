@@ -24,7 +24,7 @@ RenderSettings:
   m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
   m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
   m_AmbientIntensity: 1
-  m_AmbientMode: 4
+  m_AmbientMode: 0
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
   m_SkyboxMaterial: {fileID: 0}
   m_HaloStrength: 0.5
@@ -310,6 +310,9 @@ MonoBehaviour:
   bulletPrefab: {fileID: 5228051022349030026, guid: 8f5e5dc671fdf3c47a465bf815a13bf6,
     type: 3}
   bulletSpawn: {fileID: 688170757}
+  playerCamera: {fileID: 1730646454}
+  sensitivity: 0.2
+  maxYAngle: 80
 --- !u!114 &693945810
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -384,6 +387,22 @@ MonoBehaviour:
         m_CallState: 2
     m_ActionId: 27638d68-31b5-4271-9474-cacd65c2fe17
     m_ActionName: PlayerInteraction/Shoot[/Mouse/leftButton]
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 693945809}
+        m_TargetAssemblyTypeName: Player, Assembly-CSharp
+        m_MethodName: onLook
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: cf3aa830-14b2-49c6-9e3f-f665e5de2ee6
+    m_ActionName: PlayerInteraction/New action
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: Player01
   m_DefaultActionMap: PlayerInteraction
@@ -563,7 +582,6 @@ GameObject:
   - component: {fileID: 1730646453}
   - component: {fileID: 1730646452}
   - component: {fileID: 1730646455}
-  - component: {fileID: 1730646456}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -774,21 +792,6 @@ MonoBehaviour:
       enableFptlForForwardOpaque: 0
       enableBigTilePrepass: 0
       isFptlEnabled: 0
---- !u!114 &1730646456
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1730646451}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9318705f98362be49b927403e4cea21b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  lookConstraint: 25
-  player: {fileID: 693945807}
-  mouseSensitivity: 100
 --- !u!1 &1997947998
 GameObject:
   m_ObjectHideFlags: 0
