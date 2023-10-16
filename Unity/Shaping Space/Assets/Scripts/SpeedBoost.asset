@@ -12,4 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b239423935bf2b4f8c12549afa7ca2f, type: 3}
   m_Name: SpeedBoost
   m_EditorClassIdentifier: 
-  amount: 0
+  amount: 15
