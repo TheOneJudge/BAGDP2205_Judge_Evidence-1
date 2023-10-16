@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 1750.9358, g: 1833.3538, b: 2664.6956, a: 1}
+  m_IndirectSpecularColor: {r: 1751.5042, g: 1833.9553, b: 2665.172, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -2980,7 +2980,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: da7fed023009a1b4e969291fa49c38dd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  npcName: Wounded
+  npcName: Wounded Crew Member
 --- !u!114 &450977478
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3694,7 +3694,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: da7fed023009a1b4e969291fa49c38dd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  npcName: Wounded
+  npcName: Concerned Crew Member
 --- !u!114 &586962822
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3708,7 +3708,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   interactionDistance: 3
-  interactionText: Good To See You Cap, please Go check on the others for me
+  interactionText: Hello Captain, the NanoMachines are fine. when damaged they automatically
+    begin to repair themselves, I am also alright
 --- !u!4 &586962823
 Transform:
   m_ObjectHideFlags: 0
@@ -10933,7 +10934,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: da7fed023009a1b4e969291fa49c38dd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  npcName: Wounded
+  npcName: Scared Crew Member
 --- !u!114 &1824950471
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10947,7 +10948,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   interactionDistance: 3
-  interactionText: Good To See You Cap, please Go check on the others for me
+  interactionText: Im Glad you are alright Cap, im concerned about these dark Matter
+    Bombs however, please go check on the NanoMachines
 --- !u!4 &1824950472
 Transform:
   m_ObjectHideFlags: 0
